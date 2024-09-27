@@ -42,7 +42,7 @@ Let's understand the command a little but.
 - lwalltime - you can request for a maximum of 168 hours on standard and high queue GPUs. 24 hours for scai_q A100s
 -  -I : Interactive job
 
-### HOW NOT TO LOSE A NODE AFTER JOB GETTING ALLOCATED
+### HOW TO NOT LOSE A NODE AFTER JOB GETTING ALLOCATED
 
 Very very important. I wish somebody told this to me when I was starting to use HPC.
 
