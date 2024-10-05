@@ -5,7 +5,7 @@ Use proxy.sh script to activate a proxy connection on a node. Recommended steps 
 ```console
 screen -S proxy
 chmod +x proxy.sh
-./proxy
+./proxy.sh
 ```
 Use Ctrl + A, D to detach from screen
 
