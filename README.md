@@ -1,3 +1,22 @@
+## Internet connectivity
+
+Use proxy.sh script to activate a proxy connection on a node. Recommended steps are to start a screen on a specific node and run ./proxy.sh.
+
+```console
+screen -S proxy
+chmod +x proxy.sh
+./proxy
+```
+Use Ctrl + A, D to detach from screen
+
+## PIP SSL ERROR
+
+In case of an SSL error, this usually works for me
+
+```console
+pip install <PACKAGE/REQUIREMENTS_LIST/BUILD>  --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --user
+```
+
 ## Cheat code to avoid getting banned
 
 Run the gpu_util_checker.py file in your terminal on any login node. I recommend to start a screen and run it in the background. It picks up jobs on it's own and maintain underutilisations of each of the jobs and kills an underutilised job.
